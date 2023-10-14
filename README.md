@@ -1,8 +1,8 @@
 # FingerTalk-AI
-AI translating ASL fingerspelling into text. Trained on 3M+ characters from 100+ Deaf signers, this tool aims to make tech more accessible for the Deaf/Hard of Hearing community. Enhancing communication &amp; bridging gaps, one sign at a time
+AI translating American Sign Language fingerspelling into text. Trained on 3M+ characters from 100+ Deaf signers, this tool aims to make tech more accessible for the Deaf/Hard of Hearing community. Enhancing communication &amp; bridging gaps, one sign at a time
 
 ## 1. Objective
-- Detect and translate American Sign Language (ASL) fingerspelling into text using a dataset of over three million fingerspelled characters thanks to google initiative!
+- Detect and translate ASL fingerspelling into text using a dataset of over three million fingerspelled characters thanks to google initiative!
 
 ## 2. Data Understanding
 - **Initial Exploration**: Open the dataset and check its structure, data types, and missing values.
