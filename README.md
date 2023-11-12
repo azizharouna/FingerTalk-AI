@@ -1,5 +1,5 @@
 # FingerTalk-AI
-AI translating American Sign Language fingerspelling into text. Trained on 3M+ characters from 100+ Deaf signers, this tool aims to make tech more accessible for the Deaf/Hard of Hearing community. Enhancing communication &amp; bridging gaps, one sign at a time
+AI translating American Sign Language fingerspelling into text. Trained on 3M+ characters from 100+ Deaf signers, this tool aims to make tech more accessible for the Deaf/Hard of Hearing community. Enhancing communication & bridging gaps, one sign at a time.
 
 ## 1. Objective
 - Detect and translate ASL fingerspelling into text using a dataset of over three million fingerspelled characters thanks to google initiative!
@@ -12,16 +12,16 @@ AI translating American Sign Language fingerspelling into text. Trained on 3M+ c
 ## 3. Data Preprocessing
 - **Cleaning**: Address missing or corrupted data.
 - **Normalization**: Standardize image sizes, possibly convert to grayscale or normalize pixel values.
-- **Augmentation**: Use techniques rotation, zooming, and flipping to artificially enhance the dataset.
+- **Augmentation**: Use techniques like rotation, zooming, and flipping to artificially enhance the dataset.
 - **Splitting**: Divide the data into training, validation, and test sets.
 
 ## 4. Feature Engineering
-- **Feature Extraction**: using pre-trained models extract features from one of the intermediate layers.
+- **Feature Extraction**: Using pre-trained models, extract features from one of the intermediate layers.
 - **Dimensionality Reduction**: If necessary, use PCA or t-SNE for visualization or to reduce feature space.
 
 ## 5. Modeling
 - **Baseline Model**: Create a simple model (shallow CNN) to set a performance baseline.
-- **Complex Models**: Explore deeper architectures or use pre-trained models (ResNet) 
+- **Complex Models**: Explore deeper architectures or use pre-trained models (ResNet).
 - **Hyperparameter Tuning**: Use grid search or random search to optimize model parameters.
 
 ## 6. Evaluation
@@ -35,7 +35,7 @@ AI translating American Sign Language fingerspelling into text. Trained on 3M+ c
 
 ## 8. Deployment
 - **Model Export**:
-- **Integration**: Integrate the model into server/app
+- **Integration**: Integrate the model into a server/app.
 - **Monitoring**: Implement tools to monitor the model's performance in real-time.
 
 ## 9. Feedback
@@ -45,3 +45,6 @@ AI translating American Sign Language fingerspelling into text. Trained on 3M+ c
 ## 10. Documentation
 - **Code**: 
 - **Results**: 
+
+## Acknowledgments
+Special thanks to Gusthema for the initial inspiration and parts of the notebook that contributed to the inception of this project. His insights and resources have been invaluable. You can find more about his work [here](https://linktr.ee/gusthema).
